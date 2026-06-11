@@ -1,3 +1,10 @@
+"""
+Purpose:
+Fetching Live NAVs
+
+Author: Kunal Jhindal
+Project: Bluestock Mutual Fund Analytics Capstone
+"""
 import requests
 import pandas as pd
 from pathlib import Path

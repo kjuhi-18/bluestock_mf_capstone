@@ -1,3 +1,10 @@
+"""
+Purpose:
+Recommends User Best Funds Based On User Needs
+
+Author: Kunal Jhindal
+Project: Bluestock Mutual Fund Analytics Capstone
+"""
 import pandas as pd
 
 perf = pd.read_csv(
