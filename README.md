@@ -40,10 +40,15 @@ The project covers:
 ## Folder Structure
 
 data/
+
 dashboard/
+
 notebooks/
+
 reports/
+
 sql/
+
 automation/
 
 ## Key Deliverables
