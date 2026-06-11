@@ -24,263 +24,61 @@ This capstone project simulates a complete Mutual Fund Analytics Platform used b
 
 The platform performs:
 
-* ✅ Automated ETL Pipelines
-* ✅ Data Cleaning & Validation
-* ✅ Exploratory Data Analysis
-* ✅ Performance Analytics
-* ✅ Risk Analytics
-* ✅ Investor Analytics
-* ✅ Portfolio Analytics
-* ✅ Power BI Dashboarding
-* ✅ Monte Carlo Forecasting
-* ✅ Automated HTML Reporting
-* ✅ Fund Recommendation Engine
+* ETL Pipeline
+* Data Cleaning
+* Exploratory Data Analysis
+* Performance Analytics
+* Advanced Risk Analytics
+* Power BI Dashboard
+* Monte Carlo Simulation
+* Automated HTML Reporting
 
----
+## Project Objectives
 
-# 🎯 Business Problem
+1. Build ETL pipelines for mutual fund data.
+2. Clean and validate datasets.
+3. Perform EDA and generate insights.
+4. Compute performance metrics.
+5. Analyze risk and investor behaviour.
+6. Build interactive dashboards.
+7. Develop advanced analytics modules.
+8. Deliver business recommendations.
 
-The Indian Mutual Fund industry has experienced massive growth in:
+## Tech Stack
 
-* Assets Under Management (AUM)
-* SIP Contributions
-* Investor Participation
-* Fund Categories
-* Portfolio Diversification
+* Python
+* Pandas
+* NumPy
+* SQLAlchemy
+* SQLite
+* Plotly
+* Seaborn
+* Power BI
 
-However, investors often struggle to:
+## Folder Structure
 
-* Compare funds objectively
-* Measure risk accurately
-* Track portfolio concentration
-* Understand benchmark performance
-* Generate actionable insights
+data/
+dashboard/
+notebooks/
+reports/
+sql/
+automation/
 
-This project solves these challenges through a complete analytics ecosystem.
+## Key Deliverables
 
----
+* Power BI Dashboard
+* Performance Analytics Notebook
+* Advanced Analytics Notebook
+* Monte Carlo Simulation
+* Fund Recommender
+* Automated Email Reporting
 
-# 🏗️ Project Architecture
+## Results
 
-```text
-Raw Data
-    ↓
-ETL Pipeline
-    ↓
-Data Cleaning
-    ↓
-SQLite Storage
-    ↓
-EDA & Analytics
-    ↓
-Performance Metrics
-    ↓
-Risk Analytics
-    ↓
-Power BI Dashboard
-    ↓
-Investor Insights
-    ↓
-Automated Reports
-```
-
----
-
-# 🛠 Tech Stack
-
-| Category        | Tools                       |
-| --------------- | --------------------------- |
-| Programming     | Python                      |
-| Database        | SQLite                      |
-| Data Processing | Pandas, NumPy               |
-| Statistics      | SciPy                       |
-| Visualization   | Matplotlib, Seaborn, Plotly |
-| Dashboard       | Power BI                    |
-| Version Control | Git & GitHub                |
-| Reporting       | HTML, PDF                   |
-
----
-
-# 📂 Repository Structure
-
-```text
-Bluestock_MF_Capstone
-│
-├── B5_automation
-│   ├── email_report.py
-│   ├── email_template.html
-│   └── weekly_report.html
-│
-├── dashboard
-│   ├── bluestock_mf_dashboard.pbix
-│   └── Dashboard.pdf
-│
-├── data
-│   ├── db
-│   ├── processed
-│   └── raw
-│
-├── notebooks
-│   ├── 01_data_ingestion.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_eda_analysis.ipynb
-│   ├── 04_performance_analytics.ipynb
-│   ├── 05_advanced_analytics.ipynb
-│   └── B3_Monte_Carlo_Simulation.ipynb
-│
-├── reports
-│   ├── charts
-│   ├── Dashboard Screenshots
-│   ├── Output_CSVs
-│   ├── Final_Report.pdf
-│   └── Presentation.pptx
-│
-├── scripts
-│   ├── compute_metrics.py
-│   ├── etl_pipeline.py
-│   ├── live_nav_fetch.py
-│   └── recommender.py
-│
-├── sql
-│   ├── schema.sql
-│   └── queries.sql
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── .gitattributes
-```
-
----
-
-# 📊 Analytics Performed
-
-## 📈 Performance Analytics
-
-* CAGR
-* Sharpe Ratio
-* Sortino Ratio
-* Alpha
-* Beta
-* Maximum Drawdown
-* Tracking Error
-
-## ⚠ Risk Analytics
-
-* Historical VaR (95%)
-* Conditional VaR (CVaR)
-* Rolling Sharpe Ratio
-* Sector HHI Concentration
-
-## 👥 Investor Analytics
-
-* Cohort Analysis
-* SIP Continuity Analysis
-* Geographic Analysis
-* Age Group Analysis
-* Transaction Trend Analysis
-
-## 🏦 Fund Analytics
-
-* Fund Ranking
-* Benchmark Comparison
-* Fund Scorecard
-* Risk vs Return Analysis
-* Portfolio Concentration Analysis
-
----
-
-# 🎲 Monte Carlo Simulation
-
-A 5-Year Monte Carlo Simulation was developed to forecast future NAV growth under multiple market scenarios.
-
-### Outputs
-
-* Expected NAV
-* Optimistic Scenario
-* Pessimistic Scenario
-* Confidence Intervals
-* Future Growth Distribution
-
----
-
-# 🤖 Fund Recommendation Engine
-
-Users can select:
-
-* Low Risk
-* Moderate Risk
-* High Risk
-
-The recommendation engine returns top-performing mutual funds based on:
-
-* Sharpe Ratio
-* Risk Grade
-* Historical Returns
-
----
-
-# 📧 Automated Reporting
-
-The project includes an automated HTML reporting system capable of generating:
-
-* Weekly Performance Reports
-* Fund Rankings
-* Risk Highlights
-* HTML Reports Ready for Email Delivery
-
----
-
-# 📊 Dashboard Pages
-
-## 🏦 Industry Overview
-
-* Total AUM
-* SIP Inflows
-* Total Folios
-* Industry Trends
-
-## 📈 Fund Performance
-
-* Risk vs Return Analysis
-* Fund Scorecards
-* Benchmark Comparison
-
-## 👥 Investor Analytics
-
-* Investor Demographics
-* Transaction Insights
-* Geographic Analysis
-
-## 📉 SIP & Market Trends
-
-* SIP Growth
-* Market Performance
-* Category Inflows
-
----
-
-# 🏆 Key Findings
-
-### 🥇 Top Ranked Fund
-
-SBI Small Cap Fund emerged as the highest-ranked fund based on composite scoring.
-
-### 📈 Best Long-Term Return
-
-ABSL Small Cap Fund delivered the strongest 5-Year returns.
-
-### 💰 Industry Growth
-
-SIP inflows crossed ₹31,000 Crore indicating strong retail participation.
-
-### ⚠ Risk Observation
-
-Higher returns generally corresponded with higher volatility and downside risk.
-
-### 📊 Benchmark Observation
-
-Several actively managed funds consistently outperformed benchmark indices.
+* SBI Small Cap Fund ranked #1 by composite score.
+* ABSL Small Cap Fund delivered highest 5-year returns.
+* SIP inflows crossed ₹31,000 Cr.
+* Multiple funds outperformed benchmark indices.
 
 ---
 
